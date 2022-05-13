@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Senha</title>
+    <link rel="stylesheet" href="./assets/style.css">
+    </head>
+
+    <body class="container">
+        <div class="box">
+            <header class="header">
+                <h1>Cadastro</h1>
+            </header>
+            <main>
+                <form class="formulario" id="form">
+                    Nome: <input type="text" id="nome" required><br>
+                    Crie sua Senha:<input type="password" id="senha" required><br>
+                <div id="contador"></div>
+                    <p class="deve">Sua senha deve seguir o seguinte padrão:</p>
+                    <p class="deve"> Possui no mínimo 6 caracteres. </p>
+                    <p class="deve"> Contém no mínimo 1 digito. </p>
+                    <p class="deve"> Contém no mínimo 1 letra em minúsculo. </p>
+                    <p class="deve"> Contém no mínimo 1 letra em maiúsculo. </p>
+                    <p class="deve"> Conter no minimo 1 caracter especial:</p>
+                    <p class="deve">!@#$%^&*</p>
+                    <button class="button" id="button">Enviar</button>
+
+                </form>
+            </main>
+        </div>
+        <script src="./assets/senha1.js">
+
+        </script>
+    </body>
+</html>

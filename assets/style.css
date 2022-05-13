@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.box {
+    height: 600px;
+    width: 400px;
+    background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+    border-radius: 15px;
+}
+
+.formulario {
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.button {
+    height: 40px;
+    width: 200px;
+}
+
+#senha,
+#nome {
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.button {
+    font-size: 20px;
+}
+
+.header {
+    margin-bottom: 15px;
+}
+
+.deve,
+#contador {
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+#retorno {
+    font-size: 17px;
+    color: rgb(224, 70, 70)
+}
